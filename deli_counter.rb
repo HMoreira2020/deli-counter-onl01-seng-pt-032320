@@ -9,7 +9,7 @@ def line(array)
     end
     puts "The line is currently: #{line_array.join(" ")}"
   else 
-    puts "The line is currently empty."
+    puts "The line is currently empty." 
   end
 end
 
