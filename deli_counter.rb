@@ -1,8 +1,8 @@
 
-def line(array)
-  if array.length > 0 
+def line(katz_deli)
+  if katz_deli.length > 0 
     line_array = []
-    array.each_with_index{|person, index|
+    katz_deli.each_with_index{|person, index|
       line_array.push("#{index + 1}. #{person}")}
     puts "The line is currently: #{line_array.join(" ")}"
   else 
