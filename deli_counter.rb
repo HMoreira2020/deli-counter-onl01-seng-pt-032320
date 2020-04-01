@@ -5,7 +5,7 @@ def line(array)
     array.each_with_index do |person, index|
       line_array.push("#{index + 1}. #{person}") 
     end
-    # puts "The line is currently: #{line_array.join(" ")}"
+    puts "The line is currently: #{line_array.join(" ")}"
   else 
     puts "The line is currently empty." 
   end
